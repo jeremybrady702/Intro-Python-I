@@ -15,6 +15,6 @@ z = "I like turtles!"
 print("%2d, %1.5f, + %s" % (x, y, z))
 
 # Use the 'format' string method to print the same thing
-
+print("x is {}, y is {} + {}".format(x, y, z))
 # Finally, print the same thing using an f-string
 print(f"{x}, {y}, + {z}")
