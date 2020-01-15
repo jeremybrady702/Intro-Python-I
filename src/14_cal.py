@@ -34,7 +34,6 @@ def newCal(a=thisMonth, b=thisYear):
     return cal.formatmonth(b, a)
 
 
-# print(user_input)
 if len(sys.argv) == 1:
     print(newCal(thisMonth, thisYear))
 elif len(sys.argv) == 2:
@@ -53,5 +52,5 @@ elif len(sys.argv) == 3:
     except ValueError:
         print('Please enter a valid month and year in integer')
 else:
-    print('''Please use the following format in your terminal: 'python3 [file_name] [month] [year]'. Month and year are optional.''')
-
+    print(
+        '''Please use the following format in your terminal: 'python3 [file_name] [month] [year]'. Month and year are optional.''')
